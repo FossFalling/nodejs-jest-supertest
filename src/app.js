@@ -10,8 +10,8 @@ app.use(express.json());
 
 // Routes
 
-app.get("/ping", (req, res) => {
-  res.send("Pong");
+app.get("/hello", (req, res) => {
+  res.send("Hello from 23521571 – Kim Thành Tiến");
 });
 
 app.get("/tasks", (req, res) => {
